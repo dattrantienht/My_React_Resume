@@ -12,8 +12,8 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
-import Testimonials from './Components/Testimonials';
 import Portfolio from "./Components/Portfolio";
+import Skill from "./Components/Skill";
 
 library.add(fab, fas, far);
 
@@ -54,8 +54,8 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
+        <Skill data={this.state.resumeData.skill} />
         <Portfolio data={this.state.resumeData.portfolio} />
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
         <MouseParticles g={2} num={1} life={0.9} radius={5} color="#00C8FF" cull="col,image-wrapper"/>

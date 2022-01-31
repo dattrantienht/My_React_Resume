@@ -404,6 +404,37 @@ ul#nav li.current a { color: #00C8FF; }
 }  */
 
 /* ------------------------------------------------------------------ */
+/*  Skill Section
+/* ------------------------------------------------------------------ */
+
+#skill {
+   background: #191919;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+
+#skill h1 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95A3A3;
+}
+#skill-wrapper .columns { margin-bottom: 36px; }
+.skill-item .skill-item-wrap {
+  
+   overflow: hidden;
+   position: relative;
+
+   -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 

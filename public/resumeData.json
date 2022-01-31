@@ -109,6 +109,32 @@
       }
     ]
   },
+
+  "skill":{
+    "tools":[
+      {
+        "name":"Unity",
+        "logo":"unity.png",
+        "url":"https://unity.com/"
+      },
+      {
+        "name":"React",
+        "logo":"unity.png",
+        "url":"https://reactjs.org/"
+      },
+      {
+        "name":"Node",
+        "logo":"unity.png",
+        "url":"https://nodejs.org/"
+      },
+      {
+        "name":"Git",
+        "logo":"unity.png",
+        "url":"https://git-scm.com/"
+      }
+    ]
+  },
+  
   "portfolio":{
     "projects": [
       {
