@@ -196,9 +196,9 @@ ul#nav li.current a { color: #00C8FF; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 10%;
+   width: 150px;
+   height: 150px;
+   border-radius: 25%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
