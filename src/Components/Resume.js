@@ -73,18 +73,16 @@ class Resume extends Component {
         </Slide>
 
         <div className="row skill">
-
-            <div className="three columns header-col">
-              <h1><span>Skills</span></h1>
-            </div>
-
-            <div>
-              <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
-              <ul className="bgrid-quarters s-bgrid-thirds cf">
-                {skills}
-              </ul>
-            </div>
+          <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
           </div>
+          <div>
+            <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
+            <ul className="bgrid-quarters s-bgrid-thirds cf">
+              {skills}
+            </ul>
+          </div>
+        </div>
       </section>
     );
   }
