@@ -35,12 +35,14 @@ class Resume extends Component {
 
     var skills = this.props.data.skills.map(function(skills){
       var projectImage = 'images/tech/'+skills.image;
-        return <div key={skills.name} className="columns feature-item">
-                  <img className='skill' alt={skills.name} src={projectImage} />
-                  <h5>{skills.name}</h5>
-                  <p>{skills.description}</p>
-               </div>
-      })
+      return (
+        <div key={skills.name} className="columns feature-item">
+          <img className='skill' alt={skills.name} src={projectImage} />
+          <h5>{skills.name}</h5>
+          <p>{skills.description}</p>
+        </div>
+      );
+    })
 
     return (
       <section id="resume">
@@ -67,7 +69,6 @@ class Resume extends Component {
                 <span>Work</span>
               </h1>
             </div>
-
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
@@ -78,11 +79,10 @@ class Resume extends Component {
           </div>
           <div>
             <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
-            <ul className="bgrid-quarters s-bgrid-thirds cf">
-              {skills}
-            </ul>
+            <ul className="bgrid-quarters s-bgrid-thirds cf">{skills}</ul>
           </div>
         </div>
+        
       </section>
     );
   }
