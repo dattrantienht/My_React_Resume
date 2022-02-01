@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import Fade from "react-reveal";
 
 class Resume extends Component {
   render() {
@@ -71,8 +72,7 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row skill">
+        <div className="row skill">
 
             <div className="three columns header-col">
               <h1><span>Skills</span></h1>
@@ -85,7 +85,6 @@ class Resume extends Component {
               </ul>
             </div>
           </div>
-        </Slide>
       </section>
     );
   }
