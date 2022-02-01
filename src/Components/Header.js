@@ -6,8 +6,6 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
     const mouseScroll = "images/scroll-icon.gif";
@@ -98,7 +96,7 @@ class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
-            <img src={mouseScroll}/>
+            <img alt="" src={mouseScroll}/>
           </a>
         </p>
 
