@@ -227,7 +227,7 @@ ul#nav li.current a { color: #00C8FF; }
 #resume {
    
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 30px;
    overflow: hidden;
 }
 
@@ -415,12 +415,12 @@ ul#nav li.current a { color: #00C8FF; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   
-   padding-top: 90px;
+  
+   padding-top: 30px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;

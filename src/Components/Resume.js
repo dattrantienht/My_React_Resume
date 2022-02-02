@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
-import Fade from "react-reveal";
-
 class Resume extends Component {
   render() {
     if (!this.props.data) return null;
