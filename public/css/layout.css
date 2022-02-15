@@ -249,6 +249,10 @@ ul#nav li.current a { color: #00C8FF; }
    color: #fff;
 }
 
+#resume h5 {
+  color: #fff;
+}
+
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
