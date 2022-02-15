@@ -1,19 +1,19 @@
 {
   "main": {
     "name":"Tran Tien Dat",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description":"I am a coder in Vietnam, I love working with computers, learning software development and trying out all types of technology. Welcome to my resume page",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I enjoy programing and making software, I can create websites, mobile apps and games. Seeing my ideas come to life after days of problem solving alway bring me satisfaction. I like to learn new things by start building stuff with them. Beside that, I love playing games, reading books and hitting the gym.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "tiendattran.gm@gmail.com",
+    "phone": "+84 388 470 365",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Route 80",
+      "city":"Tan Hiep",
+      "state":"Kien Giang",
+      "zip": "91000"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -57,46 +57,30 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"These are my favorite techs and tools I have experience working with",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Kien Giang College",
+        "degree":"Diploma of Information Technology",
+        "graduated":"Expected April 2022",
+        "description":"I attended college for two and a half years. Here I learned the basics of programing and software development, discovered my passion for programming, the fascinating logic behind computer and application systems. It was here I found that I actually good at building software."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"The Internet",
+        "degree":"Self-taught Developer",
+        "graduated":"",
+        "description":"After picked up basics knowledge of software technology at the college, I learn all the skills needed to make modern applications from the internet, online courses and tutorials, try building my own projects as I go."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
+        "company":"Mekong Tech",
+        "title":"Intern Developer",
+        "years":"June 2021 - November 2021",
+        "description":"Here I worked as an intern for a local company in six months, help building their sales management web application, using .NET and AngularJS."
+      }    
     ],
     "skills": [
-      {
-        "name": "HTML",
-        "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
-        "image": "html.svg"
-      },
-      {
-        "name": "CSS",
-        "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
-        "image": "css.svg"
-      },
       {
         "name": "JavaScript",
         "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
@@ -141,6 +125,16 @@
         "name": "React Js",
         "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
         "image": "react.svg"
+      },
+      {
+        "name": "AngularJS",
+        "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
+        "image": "angularjs.svg"
+      },
+      {
+        "name": "Photoshop",
+        "description": "Shank shoulder doner ball tip, pork beef ribs bacon. Shankle leberkas t-bone pancetta. Shoulder swine tongue, landjaeger chuck pig jerky capicola short loin.",
+        "image": "photoshop.svg"
       },
       {
         "name": "Linux",
