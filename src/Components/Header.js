@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Header extends Component {
