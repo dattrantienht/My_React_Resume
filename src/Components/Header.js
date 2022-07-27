@@ -13,12 +13,12 @@ class Header extends Component {
       return <li key={network.name}><a href={network.url}><FontAwesomeIcon icon={[network.iconPack, network.icon]} /></a></li>
     })
 
-    let screenWidth = window.innerWidth;
-    let numParticles = screenWidth > 1024 ? 100 : screenWidth > 767 ? 65 : 25;
+    // let screenWidth = window.innerWidth;
+    // let numParticles = screenWidth > 1024 ? 100 : screenWidth > 767 ? 65 : 25;
 
     return (
       <header id="home">
-        <ParticlesBg num={numParticles} className="pbg-l" type="cobweb" color="#00C8FF" bg={true} />
+        {/* <ParticlesBg num={numParticles} className="pbg-l" type="cobweb" color="#00C8FF" bg={true} /> */}
         
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
